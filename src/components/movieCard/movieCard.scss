@@ -1,0 +1,31 @@
+@import '../../common/colors.scss';
+
+.card-item {
+    border-radius: 0.5rem;
+    background: $secondary-clr;
+    cursor: pointer;
+    
+    .card-top {
+        height: 18.75rem;
+        overflow: hidden;
+        
+        img {
+            border-radius: 0.5rem;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .card-bottom {
+        padding: 1.25rem;
+        
+        .card-info {
+            color: $primary-font;
+    
+            h4 {
+                font-size: 1.375rem;
+                font-weight: 400;
+                margin-bottom: 0.625rem;
+            }
+        }
+    }
+}
