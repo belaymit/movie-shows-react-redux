@@ -1,6 +1,6 @@
 @import '../../common/colors.scss';
 
-.movie-list{
+.movie-list {
   margin: 1.25rem 0;
 
   h2 {
@@ -8,6 +8,7 @@
     margin-bottom: 0.625rem;
     font-weight: 400;
   }
+
   .movie-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(13.75rem, 1fr));

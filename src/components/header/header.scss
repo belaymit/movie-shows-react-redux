@@ -1,4 +1,5 @@
 @import '../../common/colors.scss';
+
 .header {
   background-color: $secondary-clr;
   height: 4.5rem;
@@ -10,7 +11,7 @@
   .logo {
     color: $primary-font;
     font-size: 2.25rem;
-    font-size: 600;
+    font-weight: 600;
     font-family: $ff-logo;
   }
 
